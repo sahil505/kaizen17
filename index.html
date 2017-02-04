@@ -24,14 +24,7 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+    <link href="css/creative.css" rel="stylesheet">
 
     </head>
 
@@ -72,16 +65,40 @@
         <header>
             <div class="header-content">
                 <div class="header-content-inner">
-                    <h1 id="homeHeading" style="font-family: 'Raleway', sans-serif; font-size: 60px; font-weight: 500;">Kaizen '17</h1>
-                    
+                    <h1 id="homeHeading" style="font-family: 'Raleway', sans-serif; font-size: 80px; font-weight: 500;">Kaizen '17</h1>
+                    <div class="emblem">KAIZEN*NSSIITD*</div>
                     <hr>
                     <!-- <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p> -->
-                    <h1 id="homeHeading" style="font-family: 'Raleway', sans-serif; font-size: 40px; font-weight: 500;">Beleive and Be the Change</h1>
+                    <h2 id="homeHeading" style="font-family: 'Raleway', sans-serif; font-size: 40px; font-weight: 500;">Beleive and Be the Change</h2>
                     <br />
                     <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
                 </div>
             </div>
         </header>
+
+        
+        <script type="text/javascript">
+var Emblem = {
+  init: function(el, str) {
+    var element = document.querySelector(el);
+    var text = str ? str : element.innerHTML;
+    element.innerHTML = '';
+    for (var i = 0; i < text.length; i++) {
+      var letter = text[i];
+      var span = document.createElement('span');
+      var node = document.createTextNode(letter);
+      var r = (360/text.length)*(i);
+      var x = (Math.PI/text.length).toFixed(0) * (i);
+      var y = (Math.PI/text.length).toFixed(0) * (i);
+      span.appendChild(node);
+      span.style.webkitTransform = 'rotateZ('+r+'deg) translate3d('+x+'px,'+y+'px,0)';
+      span.style.transform = 'rotateZ('+r+'deg) translate3d('+x+'px,'+y+'px,0)';
+      element.appendChild(span);
+    }
+  }
+};
+
+Emblem.init('.emblem');</script>
 
         <section class="bg-primary" id="about">
             <div class="container">
