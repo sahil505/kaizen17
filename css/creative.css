@@ -3,8 +3,8 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-html,
-body {
+ html,
+ body {
   height: 100%;
   width: 100%;
 }
@@ -159,12 +159,13 @@ aside {
 
 .emblem {
   position: absolute;
+  display: block;
   left: 0;
   right: 0;
-  top: 10vh;
+  top: 18vh;
   margin: 0 auto;
-  width: 30vh;
-  height: 30vh;
+  width: 27vh;
+  height: 27vh;
   border-radius: 50%;
   font-weight: bold;
   color: #003A6F;
@@ -191,6 +192,21 @@ aside {
   }
 }
 
+.down_button{
+ position: absolute;
+ width: 40px;
+ height: 40px;
+ font-size: 40px;
+ line-height: 40px;
+ -webkit-animation: bounce 2s infinite ease-in-out;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+  40%  { -webkit-transform: translateY(-20px); }
+  80% { -webkit-transform: translateY(-10px); }
+}
+
 
 header {
   position: relative;
@@ -214,8 +230,12 @@ header .header-content {
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   margin-top: 0;
-  margin-bottom: 100px;
-/*  font-size: 30px;*/
+  /*margin-bottom: 100px;*/
+  /*  font-size: 30px;*/
+}
+header .header-content .header-content-inner h3 {
+  font-weight: 700;
+  margin-top: 60px;
 }
 header .header-content .header-content-inner hr {
   /*margin: 30px auto;
