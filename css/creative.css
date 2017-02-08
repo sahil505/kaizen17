@@ -1,6 +1,6 @@
 
- html,
- body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
@@ -203,8 +203,8 @@ p {
               .emblem {
                 position: absolute;
                 display: inline-block; 
-                right: 43.5%;
-                top: 31%;
+                right: 44%;
+                top: 40%;
                 width: 27vh;
                 height: 27vh;
                 border-radius: 50%;
@@ -264,7 +264,7 @@ p {
               background-size: cover;
               -o-background-size: cover;
               background-position: center;
-              background-image: url('../img/hand3.jpg'); 
+              background-image: url('../img/twohands1.jpg'); 
               text-align: center;
               color: white;
             }
@@ -281,8 +281,8 @@ margin-bottom: 0;*/
 }
 header .header-content .header-content-inner .number{
   font-weight: 700;
-  margin-top: 5%;
-  left: 48.5%;
+  margin-top: 9%;
+  left: 48%;
   position: absolute;
 }
 /*header .header-content .header-content-inner h3 {
