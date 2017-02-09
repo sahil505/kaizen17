@@ -7,6 +7,7 @@
 	<title>Kaizen '17</title>
 	<meta name="description" content="Beleive & Be the Change | 2017" />
 	<meta name="author" content="Sahil Khokhar" />
+	<script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<link rel="shortcut icon" href="./img/kaizen_tab.png">
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400" rel="stylesheet">
@@ -15,7 +16,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 	<link href="css/creative.css" rel="stylesheet">
-
 </head>
 <body id="page-top">
 	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
@@ -44,10 +44,32 @@
 			</div>
 		</div>
 	</nav>
+	<script>
+		$(document).ready(function(){
+			$("#homeHeading1").hide(0).delay(3000).fadeIn(4000);
+		});
+	</script>
 	<header>
 		<div class="header-content">
 			<div class="header-content-inner">
 				<h1 id="homeHeading" style="font-family: 'Raleway', sans-serif; font-size: 95px; font-weight: 400; color: #333333;">Kaizen '17</h1>
+				<script type="text/javascript">
+					var text = $('#homeHeading').text();
+					var length = text.length;
+					var timeOut;
+					var character = 0;
+					(function typeWriter() { 
+						timeOut = setTimeout(function() {
+							character++;
+							var type = text.substring(0, character);
+							$('#homeHeading').text(type);
+							typeWriter();
+							if (character == length) {
+								clearTimeout(timeOut);
+							}
+						}, 300);
+					}());
+				</script>
 				<div class="number" style="font-family: 'Raleway', sans-serif; font-size: 50px; font-weight: 400; color: #333333;">
 					<?php
 					$date = date("d");
@@ -56,7 +78,7 @@
 					?></div>
 					<div class="emblem" style="font-family: 'Raleway', sans-serif; font-weight: bolder;">DAYS-TO-GO-</div>
 					<hr>
-					<h2 id="homeHeading" style="font-family: 'Raleway', sans-serif; font-size: 40px; font-weight: 330; color: #333333;">Believe &amp; Be the Change</h2>
+					<h2 id="homeHeading1" style="font-family: 'Raleway', sans-serif; font-size: 40px; font-weight: 330; color: #333333;">Believe &amp; Be the Change</h2>
 					<br />
 					<a href="#about" class="page-scroll"><span class="down_button">&#11015;</span></a>
 				</div>
@@ -138,7 +160,7 @@
 						<div class="service-box">
 							<i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
 							<h3>Workshops</h3>
-							<p class="text-muted">We update dependencies to keep things fresh.</p>
+							<p class="text-muted">First hand experience of ground work in social field.</p>
 							<br />
 							<button class = "rad-button static small dark flat" disabled>KNOW MORE</button>
 						</div>
@@ -167,7 +189,7 @@
 										<p>Date - 24th &amp; 25th February</p>
 										<p>Time - 10:00 AM - 6:00 PM</p>
 										<hr>
-										
+
 										<h3>NOTE</h3></center><br />
 										<ul>
 											<li><strong>Stall registration is only allowed for registered NGOs &amp; Trust.</li>
@@ -236,7 +258,7 @@
 					</div>
 				</section>
 
-				
+
 				<section id="contact">
 					<div class="container">
 						<div class="row">

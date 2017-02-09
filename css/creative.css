@@ -1,6 +1,6 @@
 
-html,
-body {
+ html,
+ body {
   height: 100%;
   width: 100%;
 }
@@ -203,7 +203,7 @@ p {
               .emblem {
                 position: absolute;
                 display: inline-block; 
-                right: 44%;
+                right: 43.5%;
                 top: 40%;
                 width: 27vh;
                 height: 27vh;
