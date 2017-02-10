@@ -44,12 +44,17 @@
       </div>
     </div>
   </nav>
-  <script>
-    $(document).ready(function(){
-      $("#homeHeading1").hide(0).delay(3000).fadeIn(4000);
-    });
-  </script>
   <header>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-9124961-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
     <div class="header-content">
       <div class="header-content-inner">
         <h1 id="homeHeading" style="font-family: 'Raleway', sans-serif; font-size: 95px; font-weight: 400; color: #333333;">Kaizen '17</h1>
