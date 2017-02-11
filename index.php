@@ -148,7 +148,33 @@
               <h3>Success Stories</h3>
               <p class="text-muted">Inspire to initiate action!<br />LEARN | ACT | BUILD</p>
               <br />
-              <button class = "rad-button static small dark flat" disabled>KNOW MORE</button>
+              <button class = "rad-button static small dark flat" data-toggle="modal" data-target="#myModal3">KNOW MORE</button>
+            </div>
+          </div>
+           <!-- Modal -->
+          <div class="modal fade" id="myModal3" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <center><h2 class="modal-title">Success Stories</h2></center>
+                </div>
+                <div class="modal-body text-center">
+                  <p>Date - 24th February</p>
+                  <hr>
+                  <strong><p style="color: #f05f40;">COMING SOON &#128522;</p></strong>
+                  <img src="./img/unnamed.png" height="150">
+                  <hr>
+                  <strong><p style="color: #f05f40;">COMING SOON &#128522;</p></strong>
+                  <img src="./img/unnamed.png" height="150">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
             </div>
           </div>
           <div class="photo photo-6">
