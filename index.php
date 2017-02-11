@@ -157,9 +157,33 @@
               <h3>Workshops</h3>
               <p class="text-muted">First hand experience of ground work in social field.</p>
               <br />
-              <button class = "rad-button static small dark flat" disabled>KNOW MORE</button>
+              <button class = "rad-button static small dark flat" data-toggle="modal" data-target="#myModal2">REGISTER</button>
             </div>
           </div>
+           <!-- Modal -->
+          <div class="modal fade" id="myModal2" role="dialog">
+            <div class="modal-dialog modal-sm">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <center><h2 class="modal-title">Workshop Registration</h2></center>
+                </div>
+                <div class="modal-body">
+                  <center>
+                    <p>Date - 24th February</p>
+                    <hr>
+                    <strong><p style="color: #f05f40;">REGISTRATIONS WILL<br />BEGIN SOON &#128522;</p></strong>
+                    </center><br />
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
           <div class="photo photo-7">
             <div class="service-box">
               <i class="fa fa-4x fa-bullhorn text-primary sr-icons"></i>
@@ -277,54 +301,54 @@
             <hr>
             <div class="row">
              <div class="col-lg-2 col-lg-offset-3 text-center">
-              <a href="#page-top" class="page-scroll"><img src="./img/kaizen.png" width="120" height="120" style="margin-left: 35%;"></a>
+              <a href="#page-top" class="page-scroll"><img src="./img/kaizen.png" width="120" height="120"></a>
+             </div>
+             <div class="col-lg-2 text-center">
+               <a href="http://nss.iitd.ac.in/home.html" target="_blank"><img src="./img/nss_logo.png" width="70" height="70" style="margin-top: 18%;"></a>
+             </div>
+             <div class="col-lg-2 text-center">
+               <a href="http://tryst-iitd.com/iitd" target="_blank"><img src="./img/tryst_logo.png" width="100" height="100" style="margin-top: 14%;"></a>
+              </div>
             </div>
-            <div class="col-lg-2 text-center">
-              <a href="http://nss.iitd.ac.in/home.html" target="_blank"><img src="./img/nss_logo.png" width="70" height="70" style="margin-top: 18%;"></a>
-            </div>
-            <div class="col-lg-2">
-              <a href="http://tryst-iitd.com/iitd" target="_blank"><img src="./img/tryst_logo.png" width="100" height="100" style="margin-top: 14%;"></a>
-            </div>
-         </div>
-         <div class="row">
-             <div class="col-lg-6 col-lg-offset-3 text-center">
-              Made with <i class="fa fa-heart heart" style="color: #990513;"></i> for <a href="http://nss.iitd.ac.in" target="_blank">NSS IIT Delhi</a>
-            </div>
-            <div class="col-lg-6">
-              <a href="http://www.sahil505.com" class="made-with-mk" target="_blank">
-               <div class="brand">SK</div>
-               <div class="made-with">Made by <strong>Sahil Khokhar</strong></div>
-             </a>
-           </div>
+          <div class="row">
+           <div class="col-lg-6 col-lg-offset-3 text-center">
+            Made with <i class="fa fa-heart heart" style="color: #990513;"></i> for <a href="http://nss.iitd.ac.in" target="_blank">NSS IIT Delhi</a>
+          </div>
+          <div class="col-lg-6">
+            <a href="http://www.sahil505.com" class="made-with-mk" target="_blank">
+             <div class="brand">SK</div>
+             <div class="made-with">Made by <strong>Sahil Khokhar</strong></div>
+           </a>
          </div>
        </div>
-     </section>
-     <script type="text/javascript">
-       var Emblem = {
-        init: function(el, str) {
-         var element = document.querySelector(el);
-         var text = str ? str : element.innerHTML;
-         element.innerHTML = '';
-         for (var i = 0; i < text.length; i++) {
-          var letter = text[i];
-          var span = document.createElement('span');
-          var node = document.createTextNode(letter);
-          var r = (360/text.length)*(i);
-          var x = (Math.PI/text.length).toFixed(0) * (i);
-          var y = (Math.PI/text.length).toFixed(0) * (i);
-          span.appendChild(node);
-          span.style.webkitTransform = 'rotateZ('+r+'deg) translate3d('+x+'px,'+y+'px,0)';
-          span.style.transform = 'rotateZ('+r+'deg) translate3d('+x+'px,'+y+'px,0)';
-          element.appendChild(span);
-        }
+     </div>
+   </section>
+   <script type="text/javascript">
+     var Emblem = {
+      init: function(el, str) {
+       var element = document.querySelector(el);
+       var text = str ? str : element.innerHTML;
+       element.innerHTML = '';
+       for (var i = 0; i < text.length; i++) {
+        var letter = text[i];
+        var span = document.createElement('span');
+        var node = document.createTextNode(letter);
+        var r = (360/text.length)*(i);
+        var x = (Math.PI/text.length).toFixed(0) * (i);
+        var y = (Math.PI/text.length).toFixed(0) * (i);
+        span.appendChild(node);
+        span.style.webkitTransform = 'rotateZ('+r+'deg) translate3d('+x+'px,'+y+'px,0)';
+        span.style.transform = 'rotateZ('+r+'deg) translate3d('+x+'px,'+y+'px,0)';
+        element.appendChild(span);
       }
-    };
-    Emblem.init('.emblem');</script>
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/creative.min.js"></script>
-  </body>
-  </html>
+    }
+  };
+  Emblem.init('.emblem');</script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="js/creative.min.js"></script>
+</body>
+</html>
