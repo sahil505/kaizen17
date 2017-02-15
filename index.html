@@ -86,7 +86,7 @@
             <h2 class="section-heading" style="font-family: 'Raleway', sans-serif; color: #20303c; font-size: 60px; font-weight: 300;">About Kaizen</h2>
             <hr class="light">
             <p class="text-faded">Kaizen is a joint initiative of <a href="http://nss.iitd.ac.in/home.html">NSS IIT Delhi</a> &amp; Professional Ethics &amp; Social Responsibility (PESR), a platform to recognize the continuous improvements that are happening in our society as a result of the combined efforts of all socially motivated student bodies and NGOs across India and abroad. </p>
-            <p class="text-faded">Interaction and opinion sharing is the prime focal point of Kaizen. It aims at providing a single platform for exchange of a plethora of ideologies, stories & experiences of people who stood up against the tides and sailed through them, so that any idea or solution implemented at one place can also become success model for others.</p>
+            <p class="text-faded">Interaction and opinion sharing is the prime focal point of Kaizen. It aims at providing a single platform for exchange of a plethora of ideologies, stories &amp; experiences of people who stood up against the tides and sailed through them, so that any idea or solution implemented at one place can also become success model for others.</p>
             <a href="#services" class="page-scroll btn btn-default btn-xl sr-button rad-button dark flat">Get Started!</a>
           </div>
         </div>
@@ -188,7 +188,7 @@
           </div>
            <!-- Modal -->
           <div class="modal fade" id="myModal2" role="dialog">
-            <div class="modal-dialog modal-sm">
+            <div class="modal-dialog">
 
               <!-- Modal content-->
               <div class="modal-content">
@@ -196,11 +196,18 @@
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
                   <center><h2 class="modal-title">Workshop Registration</h2></center>
                 </div>
+                <img src="img/workshop.png" width="597" height="150">
                 <div class="modal-body">
                   <center>
                     <p>Date - 24th February</p>
                     <hr>
-                    <strong><p style="color: #f05f40;">REGISTRATIONS WILL<br />BEGIN SOON &#128522;</p></strong>
+                    <a href="./work_guidelines.pdf" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal2">Guidelines</button></a>
+                    <hr>
+                    <p><strong>Youth Development &amp; Media Advocacy</strong><br /><span style="font-size: 10px;">presented by</span><br /> Commutiny the Youth Collective(CYC)</p>
+                    <p>Time - 9:30 AM - 1:00 PM</p>
+                    <p>This workshop provides a safe space to discuss about youth development and communication.</p>
+                    <hr>
+                    <a href="http://iitd.info/pravah2" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal2">Fill the Form</button></a>
                     </center><br />
                     </div>
                     <div class="modal-footer">
