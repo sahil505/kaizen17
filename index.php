@@ -127,13 +127,13 @@
                   <p>Date - 25th February</p>
                   <p>Time - 10:30 AM - 4:30 PM</p>
                   <hr>
-                  <a href="./conv_guidelines.pdf" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal">Guidelines</button></a>
+                  <a href="./conv_guidelines.pdf" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal">General Guidelines</button></a>
                   <hr>
                   <p>If the work of your organization pertains to, <br /><strong>'Education', 'Health'</strong> or <strong>'Environment'</strong> domain</p>
-                  <a href="https://goo.gl/forms/C4F62O5OHu2hvYqB2" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal">Fill the Form</button></a>
+                  <a href="https://goo.gl/forms/C4F62O5OHu2hvYqB2" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal" style="background-color: #5cb85c;">FILL THE FORM</button></a>
                   <hr>
                   <p>Any other domain</p>
-                  <a href="https://goo.gl/forms/ieRWvyQl5fAtRESh1" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal">Fill the Form</button></a>
+                  <a href="https://goo.gl/forms/ieRWvyQl5fAtRESh1" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal" style="background-color: #5cb85c;">FILL THE FORM</button></a>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -201,13 +201,14 @@
                   <center>
                     <p>Date - 24th February</p>
                     <hr>
-                    <a href="./work_guidelines.pdf" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal2">Guidelines</button></a>
+                    <a href="./work_guidelines.pdf" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal2">General Guidelines</button></a>
                     <hr>
-                    <p><strong>Youth Development &amp; Media Advocacy</strong><br /><span style="font-size: 10px;">presented by</span><br /> Commutiny the Youth Collective(CYC)</p>
+                    <p><strong>Youth Development &amp; Media Advocacy</strong><br /><span style="font-size: 10px;">presented by</span><br /> ComMutiny - The Youth Collective (CYC)</p>
                     <p>Time - 9:30 AM - 1:00 PM</p>
                     <p>This workshop provides a safe space to discuss about youth development and communication.</p>
+                    <a href="http://iitd.info/pravah2" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal2" style="background-color: #5cb85c;">FILL THE FORM</button></a>
                     <hr>
-                    <a href="http://iitd.info/pravah2" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal2">Fill the Form</button></a>
+                    <p style="color: #f05f40;">Sit tight for another workshop<br/>COMING SOON &#128522;</p>
                     </center><br />
                     </div>
                     <div class="modal-footer">
@@ -248,7 +249,7 @@
                       <li>Final allocation would be mailed to you prior enough to the main event.</strong></li>
                     </ul>
                     <br />
-                    <center><a href="https://goo.gl/forms/edDZLxSZWiPGLdKY2" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal1">REGISTER</button></a></center>
+                    <center><a href="https://goo.gl/forms/edDZLxSZWiPGLdKY2" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal1" style="background-color: #5cb85c;">FILL THE FORM</button></a></center>
                     <hr>
                     <p>For any query or help you can mail us at <strong>info@kaizen-iitd.com</strong> OR contact us at
                       <strong>9999425238</strong>(Bala Sai), <strong>9643810992</strong>(Jishnudeep Kar).</p>
