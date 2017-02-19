@@ -211,14 +211,18 @@
                   <center>
                     <p>Date - 24th February</p>
                     <hr>
-                    <a href="./work_guidelines.pdf" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal2">General Guidelines</button></a>
-                    <hr>
                     <p><strong>Youth Development &amp; Media Advocacy</strong><br /><span style="font-size: 10px;">presented by</span><br /> ComMutiny - The Youth Collective (CYC)</p>
                     <p>Time - 9:30 AM - 1:00 PM</p>
                     <p>This workshop provides a safe space to discuss about youth development and communication.</p>
+                    <a href="./work_guidelines.pdf" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal2">Guidelines</button></a><br /><br />
                     <a href="http://iitd.info/pravah2" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal2" style="background-color: #5cb85c;">FILL THE FORM</button></a>
                     <hr>
-                    <p style="color: #f05f40;">Sit tight for another workshop<br/>COMING SOON &#128522;</p>
+                    <p><strong>Poverty and Inequality - What really matters ?</strong><br /><span style="font-size: 10px;">presented by</span><br />PRADAN</p>
+                    <p>Time - 9:30 AM - 1:00 PM</p>
+                    <p>Explore the group's understanding of term 'Development' in Indian context &amp; explain the relationship between development &amp; inequality.</p>
+                    <a href="./work_guidelines_2.pdf" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal2">Guidelines</button></a><br /><br />
+                    <a href="http://tinyurl.com/kaizenWS2" target="_blank"><button class = "rad-button static small dark flat"  data-toggle="modal" data-target="#myModal2" style="background-color: #5cb85c;">FILL THE FORM</button></a>
+                    <hr>
                     </center><br />
                     </div>
                     <div class="modal-footer">
